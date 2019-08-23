@@ -1,6 +1,6 @@
 {
-  "name": "json-local-db",
-  "version": "1.0.0",
+  "name": "@talaikis/json-db",
+  "version": "1.0.1",
   "description": "No dependencies local JSON database.",
   "main": "index.js",
   "scripts": {
@@ -39,5 +39,9 @@
       "pre-commit": "npm run test",
       "pre-push": "npm run test"
     }
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
