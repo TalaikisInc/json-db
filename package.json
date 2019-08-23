@@ -1,0 +1,43 @@
+{
+  "name": "json-local-db",
+  "version": "1.0.0",
+  "description": "No dependencies local JSON database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalaikisInc/json-db.git"
+  },
+  "keywords": [
+    "database",
+    "json"
+  ],
+  "author": "Tadas Talaikis <info@talaikis.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TalaikisInc/json-db/issues"
+  },
+  "homepage": "https://github.com/TalaikisInc/json-db#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.2.1",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "faker": "^4.1.0",
+    "husky": "^3.0.4",
+    "mocha": "^6.2.0",
+    "vile": "^0.19.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test",
+      "pre-push": "npm run test"
+    }
+  }
+}
