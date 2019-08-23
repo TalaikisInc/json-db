@@ -1,6 +1,6 @@
 # Local JSON Database
 
-This is simple, no dependencies, local disk, table-level Node.js JSON database, which we often use in large development workloads.
+This is simple, fast, small (12.5 KB), no dependencies, local disk, table-level Node.js JSON database, which we often use in large development workloads.
 
 ## Install
 
