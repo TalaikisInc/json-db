@@ -5,7 +5,7 @@ This is simple, no dependencies, local disk, table-level Node.js JSON database, 
 ## Install
 
 ```bash
-npm i @talaikis/json-db
+npm i -S @talaikis/json-db
 ```
 
 ## Fucntions

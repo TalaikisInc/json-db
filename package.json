@@ -12,14 +12,18 @@
   },
   "keywords": [
     "database",
-    "json"
+    "json",
+    "db",
+    "storage",
+    "node",
+    "nodejs"
   ],
   "author": "Tadas Talaikis <info@talaikis.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TalaikisInc/json-db/issues"
   },
-  "homepage": "https://github.com/TalaikisInc/json-db#readme",
+  "homepage": "https://talaikis.com",
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
