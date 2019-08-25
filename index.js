@@ -157,7 +157,7 @@ const _deleteTable = (baseDir, dir, done) => {
           } else {
             if (toDelete.length === i && errors === 0) {
               try {
-                stat(path, (err, r) => {
+                stat(path, (err, _) => {
                   if (err === null) {
                     rmdir(path, (err) => {
                       if (err === null) {
